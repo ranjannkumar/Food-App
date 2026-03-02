@@ -15,6 +15,7 @@ const Add = ({url}) => {
 
   const onChangeHandler=(event)=>{
     const name=event.target.name;
+    console.log(name);
     const value=event.target.value;
     setData(data=>({...data,[name]:value}))
   }
